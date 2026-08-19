@@ -1,0 +1,9 @@
+pygame
+sounddevice
+numpy
+openai-whisper
+requests
+psutil
+duckduckgo-search
+groq
+keyboard
