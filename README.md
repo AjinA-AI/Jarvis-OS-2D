@@ -23,7 +23,7 @@
 
 Jarvis OS is a hands-free, voice-activated desktop assistant built in Python. It features a continuous speech pipeline using OpenAI's Whisper, real-time intelligence powered by Groq-hosted LLMs, and high-fidelity speech synthesis via ElevenLabs. The system is packaged within a retro-futuristic, dynamic Pygame HUD displaying live hardware telemetry, audio spectrum visualizers, and responsive mouse parallax controls.
 
-*(Note: Add a screenshot or GIF of your Pygame UI here!)*
+
 <!-- ![Jarvis HUD Demo](link-to-your-image-or-gif.gif) -->
 
 ---
