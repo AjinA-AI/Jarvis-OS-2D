@@ -68,3 +68,18 @@ Ensure you have the following installed and configured before running the OS:
    ```bash
    git clone [https://github.com/YOUR-USERNAME/Jarvis-OS.git](https://github.com/YOUR-USERNAME/Jarvis-OS.git)
    cd Jarvis-OS
+2. Install the required dependencies:
+   pip install -r requirements.txt
+4. Configure API Keys:
+Open jarvis_os.py and replace the placeholder variables with your actual API keys:
+   GROQ_API_KEY = "YOUR_GROQ_API_KEY_HERE"
+ELEVENLABS_API_KEY = "YOUR_ELEVENLABS_API_KEY_HERE"
+ELEVENLABS_VOICE_ID = "YOUR_ELEVENLABS_VOICE_ID_HERE"
+
+
+🎧 Usage
+Run the main script from your terminal:
+  python jarvis_os.py
+Wait for the terminal to display [LISTENING FOR WAKE WORD], and simply say "Wake up, Jarvis" to initiate the continuous conversation loop. Say "Go to sleep" to return the system to standby.
+
+Author: Ajin A
